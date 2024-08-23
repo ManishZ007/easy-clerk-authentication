@@ -1,10 +1,15 @@
+## 🖼️<a href="demo-project-img">Demo of Project</a>
+
+![alt text](https://github.com/ManishZ007/easy-authentication/blob/main/demo.png)
+
 ## 🧾Easy Access Contents
 
-1. 🙋‍♂️[Introduction](#introduction)
-2. 🤩[Quick Start](#quick-start)
-3. ⚙️[Tech Stack](#teck-stack)
-4. ⭐[Features](#features)
-5. 🎊[Moral of Story](#moral-of-story)
+1. 🖼️[Demo of Project](#demo-project-img)
+2. 🙋‍♂️[Introduction](#introduction)
+3. 🤩[Quick Start](#quick-start)
+4. ⚙️[Tech Stack](#teck-stack)
+5. ⭐[Features](#features)
+6. 🎊[Moral of Story](#moral-of-story)
 
 
 ## 🙋‍♂<a href="introduction">Introduction</a>
