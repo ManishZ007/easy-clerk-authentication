@@ -1,6 +1,6 @@
 ## 🖼️<a href="demo-project-img">Demo of Project</a>
 
-![alt text](https://github.com/ManishZ007/easy-authentication/blob/main/demo.png)
+![alt text](https://github.com/ManishZ007/easy-clerk-authentication/blob/main/demo.png)
 
 ## 🧾Easy Access Contents
 
@@ -36,8 +36,8 @@ Make sure you have the following installed on your machine:
 **Cloning the repository and start building**
 
 ```bash
-git clone https://github.com/ManishZ007/easy-authentication.git
-cd easy-authentication
+git clone https://github.com/ManishZ007/easy-clerk-authentication.git
+cd easy-clerk-authentication
 ```
 
 **Installation**
