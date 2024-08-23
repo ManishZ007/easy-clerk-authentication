@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## <a name="quick-start"> Quick Start</a>
 
-## Getting Started
+Follow these steps to set up the project locally on your machine.
 
-First, run the development server:
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the repository and start building**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/adrianhajdin/imaginify.git
+cd imaginify
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⭐ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Pre-built Authentication: No need to set up authentication—this repository has you covered.
+- Database Actions: Easily integrate and manage multiple database actions within your project.
+- Clerk Events: Utilize Clerk events to optimize and customize your project's authentication flow.
+- Dark and Light Theme Toggle: A built-in theme toggle button allows you to switch between dark and light modes, saving you the hassle of implementing theme management.
+- ShadCN UI Library: The UI is crafted using the ShadCN library, providing a clean and modern design
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 😁 Implementation
 
-## Learn More
+After running, customize your project
 
-To learn more about Next.js, take a look at the following resources:
+- Add a .env.local file to your project, using .env.example as a reference.
+- Include your Clerk secret and publishable keys in the .env.local file.
+- Customize the middleware file to suit your specific requirements.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
