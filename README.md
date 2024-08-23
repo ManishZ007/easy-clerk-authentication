@@ -97,6 +97,26 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 This starter kit is perfect for anyone looking to quickly implement a robust authentication system with a polished UI, theme management, and additional features, while retaining the flexibility to tailor it to their needs.
 
+## Important Note
+
+If you're testing your application locally, you'll need to expose your local server to the internet to receive Clerk webhook events. Ngrok is a great tool for this purpose. Follow these steps to set up Ngrok and add the Ngrok test domain to the Clerk webhook endpoint:
+
+**Steps**
+1. Install Ngrok: If you haven't already, download and install Ngrok from [ngrok.com](https://ngrok.com/)
+2. Start Ngrok: Open your terminal and run the following command to start Ngrok on port 3000
+```bash
+ngrok http 3000
+```
+3. Copy the Ngrok URL: Ngrok will provide you with a public URL, usually something like https://abcd1234.ngrok.io. Copy this URL.
+4. Set the Webhook Endpoint in Clerk
+   - Log in to your Clerk dashboard
+   - Navigate to the "Webhooks" section
+   - Add a new webhook or edit an existing one, and paste the Ngrok URL followed by your specific webhook path (e.g., /api/webhooks/clerk).
+   - Save your changes.
+5. Test Your Webhooks: With Ngrok running and the endpoint set, Clerk will now be able to send webhook events to your local development environment. Make sure your local server is running and can handle the incoming requests.
+
+By following these steps, you can effectively test Clerk webhooks in your local environment, making development and debugging much easier.
+
 
 
 
